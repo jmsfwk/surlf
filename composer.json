@@ -1,0 +1,27 @@
+{
+    "name": "jmsfwk/surlf",
+    "description": "A library for formatting urls in the style of printf strings.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "James Fenwick",
+            "email": "j.fenwick@me.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Jmsfwk\\Surlf\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\Surlf\\": "tests"
+      }
+    },
+    "require-dev": {
+    },
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
